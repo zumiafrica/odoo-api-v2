@@ -1,6 +1,6 @@
 {
   "name": "odoo-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Odoo JSON-RPC client",
   "license": "MIT",
   "repository": "leeroybrun/odoo-api",
