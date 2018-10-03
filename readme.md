@@ -1,19 +1,22 @@
-# odoo-connect [![Build Status](https://travis-ci.org/pridiktiv/odoo-connect.svg?branch=master)](https://travis-ci.org/pridiktiv/odoo-connect)
+# odoo-api
 
 > [Odoo](https://www.odoo.com) JSON-RPC client
+
+
+This is a fork of [`odoo-connect`](https://github.com/pridiktiv/odoo-connect) with new added methods & HTTPS support.
 
 
 ## Install
 
 ```
-$ npm install --save odoo-connect
+$ npm install --save odoo-api
 ```
 
 
 ## Usage
 
 ```js
-const Odoo = require('odoo-connect');
+const Odoo = require('odoo-api');
 
 const odoo = new Odoo({
 	host: 'foobar.com',
@@ -183,4 +186,4 @@ Custom `kwargs` properties.
 
 ## License
 
-MIT © [Pridiktiv](http://pridiktiv.care)
+MIT ©
