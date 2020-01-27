@@ -1,13 +1,13 @@
 {
-  "name": "odoo-api",
-  "version": "1.3.1",
-  "description": "Odoo JSON-RPC client",
+  "name": "@gky/odoo-api",
+  "version": "1.4.0",
+  "description": "Odoo JSON-RPC client (fork of leeroybrun/odoo-api)",
   "license": "MIT",
-  "repository": "leeroybrun/odoo-api",
+  "repository": "fdt2k/odoo-api",
   "author": {
-    "name": "Leeroy Brun",
-    "email": "leeroy.brun@gmail.com",
-    "url": "github.com/leeroybrun"
+    "name": "Fabien Di Tore",
+    "email": "fabien@ditore.ch",
+    "url": ""
   },
   "engines": {
     "node": ">=4"
