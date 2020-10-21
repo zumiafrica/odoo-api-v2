@@ -16,26 +16,28 @@ $ npm install --save odoo-api
 ## Usage
 
 ```js
-const Odoo = require('odoo-api');
+import Odoo from '@truthtaicom/odoo-api-v2';
 
-const odoo = new Odoo({
-	host: 'foobar.com',
-	port: 9999
-});
+export default async function odooApi() {
+  try {
+    const odoo = new Odoo({
+      host: 'localhost',
+      port: 3979,
+    });
 
-odoo
-	.connect({
-		database: 'unicorn',
-		username: 'foo',
-		password: 'bar'
-	})
-	.then(client => {
-		return client.searchRead('product.product', ['list_price > 50'], {limit: 1});
-	})
-	.then(products => {
-		console.log(products);
-		//=> [{list_price: 52, name: 'Unicorn'}]
-	});
+    const client = await odoo.connect({
+      database: 'odoo_db',
+      username: 'your-user-name',
+      password: '1234567890',
+    });
+
+    const data = await client.searchRead('res.partner', ['name = My Company']);
+
+    console.log('data', data);
+  } catch (error) {
+    console.log('ERROR', error);
+  }
+}
 ```
 
 
