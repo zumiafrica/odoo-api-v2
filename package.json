@@ -1,6 +1,6 @@
 {
   "name": "@truthtaicom/odoo-api-v2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Odoo JSON-RPC client (fork of FDT2k/odoo-api)",
   "license": "MIT",
   "repository": {
