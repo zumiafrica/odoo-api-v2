@@ -30,7 +30,7 @@ odoo
 		password: 'bar'
 	})
 	.then(client => {
-		return client.searchRead('product.product', [['list_price', '>', '50']], {limit: 1});
+		return client.searchRead('product.product', ['list_price > 50'], {limit: 1});
 	})
 	.then(products => {
 		console.log(products);
