@@ -3,19 +3,24 @@
 > [Odoo](https://www.odoo.com) JSON-RPC client
 
 
-This is a fork of [`odoo-connect`](https://github.com/pridiktiv/odoo-connect) with  & HTTPS support.
+This is a fork of [`odoo-connect`](https://github.com/pridiktiv/odoo-connect) with:
 
 
 - [x] New added methods (read/count/readGroup)
 - [x] HTTPS support
 - [x] Native Args query: ["id > 1", "name = Louis"]
 - [x] Aync/Await supported
-- [ ] Middlware
+- [ ] Middleware
+- [ ] TypeScript
 
 ## Install
 
 ```
-$ npm install --save @truthtaicom/odoo-api-v2
+npm install --save @truthtaicom/odoo-api-v2
+
+OR
+
+yarn add @truthtaicom/odoo-api-v2
 ```
 
 
