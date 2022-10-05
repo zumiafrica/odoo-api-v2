@@ -14,7 +14,7 @@ This is a fork of [`odoo-connect`](https://github.com/pridiktiv/odoo-connect) wi
 ## Install
 
 ```
-npm install --save "https://github.com/zumiafrica/odoo-api-v2.git#master"
+npm install --save "https://github.com/zumiafrica/odoo-api-v2.git#main"
 
 OR
 
